@@ -13,8 +13,6 @@
         <h1>Chi Siamo</h1>
     @endsection
 
-    <h1>
-        Chi siamo
-    </h1>
+
 </body>
 </html>

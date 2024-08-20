@@ -1,1 +1,154 @@
 @import "~bootstrap/scss/bootstrap";
+@font-face {
+    font-family: 'Old Press';
+    src: url('../fonts/old_press-webfont.woff2') format('woff2'),
+         url('../fonts/old_press-webfont.woff') format('woff'),
+         url('../fonts/Old\ Press.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+
+    font-family: 'Old Press', sans-serif;
+    font-size: 25px;
+
+}
+.navbar{
+    padding: 0;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: #f8f9fa;
+}
+.main-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    width: 100vw;
+    background-image: url(../img/Senza\ titolo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+}
+.main-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    width: 100vw;
+    background-image: url(../img/cucina.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+}
+
+.logo_home_page{
+    height: 120px;
+    width: auto;
+}
+
+.container_opaco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.753);
+
+
+}
+
+.button_menu{
+    border-radius: 5px;
+    height: 50px;
+    width: 90px;
+}
+.container_button{
+    padding-top: 2rem;
+}
+
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media query per tablet (min-width: 768px) */
+@media (min-width: 768px) {
+    .logo_home_page {
+        height: 200px;
+    }
+}
+
+/* Media query per desktop (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .logo_home_page {
+        height: 250px;
+    }
+}
+
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 90%;
+    margin-bottom: .5rem;
+
+}
+.container-menu-opaco{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 130px;
+    width: 100%;
+
+}
+
+.aperitivi{
+    background-image: url(../img/aperitivo.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.cocktails{
+    background-image: url(../img/cocktails.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.vini{
+    background-image: url(../img/vino.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.caffetteria{
+    background-image: url(../img/caffetteria.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.amari-super{
+    background-image: url(../img/superalc.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.container-pulsante{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/pennellata.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

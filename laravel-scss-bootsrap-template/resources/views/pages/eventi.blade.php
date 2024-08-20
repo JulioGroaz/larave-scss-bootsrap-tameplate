@@ -12,8 +12,6 @@
     @section('content')
         <h1>Eventi</h1>
     @endsection
-    <h1>
-        EVENTI
-    </h1>
+
 </body>
 </html>

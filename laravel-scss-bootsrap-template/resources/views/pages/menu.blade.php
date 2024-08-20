@@ -12,8 +12,6 @@
     @section('content')
         <h1>Menu</h1>
     @endsection
-    <h1>
-        MENU
-    </h1>
+
 </body>
 </html>

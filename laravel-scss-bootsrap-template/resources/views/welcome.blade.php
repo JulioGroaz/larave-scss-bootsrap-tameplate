@@ -15,7 +15,7 @@
     @section('content')
         <h1>Welcome</h1>
     @endsection
-    <H1>WELCOME</H1>
+
 
 </body>
 </html>
