@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/menu', function () {
+    return view('menu');
+})->name('menu');
+
+Route::get('/chi-siamo', function () {
+    return view('chi-siamo');
+})->name('chi-siamo');
+
+Route::get('/eventi', function () {
+    return view('eventi');
+})->name('eventi');
